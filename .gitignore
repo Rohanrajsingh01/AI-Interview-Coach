@@ -1,0 +1,45 @@
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~
+
+# --- Secrets and local config ---
+.env
+.env.local
+*.pem
+*.key
+
+# --- Node / Frontend ---
+node_modules/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+npm-debug.log*
+
+# --- Python / Backend / AI ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# --- Recorded media (never commit participant audio/video) ---
+*.mp3 *.wav *.m4a *.flac *.ogg
+*.mp4 *.mov *.avi *.mkv *.webm
+
+# --- User CVs / resume files (never commit) ---
+*.pdf
+*.docx
+*.doc
+
+# --- Database dumps ---
+*.sqlite
+*.db
+
+# --- Logs ---
+*.log
